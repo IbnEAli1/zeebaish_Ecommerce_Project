@@ -23,7 +23,6 @@ const Header = () => {
             <Link href={'/contact'} className="mr-5 hover:text-gray-900">Contact</Link>
             <Link href={'/about'} className="mr-5 hover:text-gray-900">About</Link>
             <Link href={'/signup'} className="mr-5 hover:text-gray-900">Sign up</Link>
-            <Link href={'/login'} className="mr-5 hover:text-gray-900">Log in</Link>
           </nav>
 
           {/* Search Bar, Wishlist Icon, Cart Icon, Hamburger Menu for Mobile */}
