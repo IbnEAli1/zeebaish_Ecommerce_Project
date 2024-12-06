@@ -105,7 +105,7 @@ function Footer() {
       {/* Footer Bottom */}
       <div className="flex justify-center border-y border-gray-700 py-2">
         <p className="text-[#868585] opacity-80 text-xs lg:text-base">
-          Copyright Iqra Naz 2024 All right reserved
+          Copyright AkazBaba 2024. All right reserved
         </p>
       </div>
     </div>
