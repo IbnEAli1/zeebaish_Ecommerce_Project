@@ -1,264 +1,157 @@
-import Image from "next/image"
-export default function About() {
-    return (
-        <div>
-            <div className="w-[114px] h-[21px] flex relative left-[135px] mt-10">
-            <p className="w-[42px] h-[21px]">Home 
 
-</p>
-<p className="w-[42px] h-[21px] ml-1"> About
 
-</p>
 
-            </div>
-           <div className="flex gap-[170px] mt-8 ">
-            <div className="w-[525px] h-[326px] gap-[30px] relative left-[135px] ">
-                <div className="w-[277px] h-[64px] font-semibold tracking-[6%] text-[54px] leading-[64px] ">
-                    Our Story
-                </div>
 
-                <div className="w-[525px] h-[232px] mt-[78px] ">
-                    <p className="h-[232px]">Launced in 2015, Exclusive is South Asia s premier online shopping makterplace with an active presense in Bangladesh. Supported by wide range of tailored marketing, data and service solutions, Exclusive has 10,500 sallers and 300 brands and serves 3 millioons customers across the region. </p>
-                    <p className="w-[505px] h-[78px] font-bold mt-[-54px]">
-                        Exclusive has more than 1 Million products to offer, growing at a very fast. Exclusive offers a diverse assotment in categories ranging  from consumer.
-                    </p>
-                </div>
-            </div>
 
-            {/*pic div  */}
-            <div className="w-[705px]  gap-[30px] relative left-[px] bg-[#EB7EA8] ">
-                <Image src={'/img2/africa.jpg'} alt='image' width={837} height={609} />
 
-            </div>
-            </div>
 
-            {/*  four image selller active*/}
-            <div className="w-[1170px] mt-[80px] h-[230px] gap-[30px] relative left-[135px] flex">
-                <div className="w-[270px] h-[230px] rounded-[4px] border-[1px] ">
-                    <div className="w-[169px] h-[170px]  ">
-                    <div className="w-[80px] h-[80px]  ">
-                            <div className="w-[58px] rounded-[58px] h-[58px] bg-black pl-[11px] pt-[11px] ">
-                            <Image src={'/img2/icon-Shopping.png'} alt='image' width={51} height={53} />
 
-                            </div>
-                        </div>
 
 
-                        <div className='w-[169px] h-[66px] gap-[12px]'>
-                            <h3 className='font-bold text-[32px] tracking-[4%]  ' >10.5k </h3>
-                            <p className='h-[24px] font-bold text-[16px] tracking-[4%] ' >Sallers active our site</p>
 
-                        </div>
-                    </div>
-
-
-                </div>
-                {/*2nd  */}
-                <div className="w-[270px] h-[230px] rounded-[4px] border-[1px] bg-[#DB4444] ">
-                    <div className="w-[169px] h-[170px]  ">
-                        {/*  image*/}
-                        <div className="w-[80px] h-[80px]  ">
-                            <div className="w-[58px] h-[58px] rounded-[58px]  pl-[11px] pt-[11px] ">
-                            <Image src={'/img2/icon-delivery.png'} alt='image' width={51} height={53} />
-
-                            </div>
-                        </div>
-
-
-                        <div className='w-[169px] h-[66px] gap-[12px]'>
-                            <h3 className='font-bold text-[32px] tracking-[4%]  ' >33k</h3>
-                            <p className='h-[24px] font-bold text-[16px] tracking-[4%] ' >Mopnthly Produduct Sale</p>
-
-                        </div>
-                    </div>
-
-
-                </div>
-                {/* 3rd */}
-                <div className="w-[270px] h-[230px] rounded-[4px] border-[1px] ">
-                    <div className="w-[169px] h-[170px]  ">
-                        {/*  image*/}
-                        <div className="w-[80px] h-[80px]  ">
-                            <div className="w-[58px] h-[58px] rounded-[58px] bg-black pl-[11px] pt-[11px] ">
-                            <Image src={'/img2/icon-Secure.png'} alt='image' width={51} height={53} />
-
-                            </div>
-                        </div>
-
-
-                        <div className='w-[169px] h-[66px] gap-[12px]'>
-                            <h3 className='font-bold text-[32px] tracking-[4%]  ' >45.5k </h3>
-                            <p className='h-[24px] font-bold text-[16px] tracking-[4%] ' >Customer active in our site</p>
-
-                        </div>
-                    </div>
-
-
-                </div>
-
-                {/*4th  */}
-                <div className="w-[270px] h-[230px] rounded-[4px] border-[1px] ">
-                    <div className="w-[169px] h-[170px] ">
-                        {/*  image*/}
-                        <Image src={'/img2/icon-delivery.png'} alt='image' width={51} height={53} />
-
-                        <div className="w-[80px] h-[80px]  ">
-                            <div className="w-[58px] h-[58px] rounded-[58px] bg-black pl-[11px] pt-[11px] ">
-                            <Image src={'/img2/icon-Moneybag.png'} alt='image' width={51} height={53} />
-
-                            </div>
-                        </div>
-
-
-                        <div className='w-[169px] h-[66px] gap-[12px]'>
-                            <h3 className='font-bold text-[32px] tracking-[4%]  ' >25k </h3>
-                            <p className='h-[24px] font-bold text-[16px] tracking-[4%] ' >Anual gross sale in our site</p>
-
-                        </div>
-                    </div>
-
-
-                </div>
-
-
-
-            </div>
-
-            {/*  */}
-            <div className="w-[1170px] mt-[80px] h-[564px] gap-[30px] relative left-[135px] flex">
-                <div className="w-[370px] h-[564px] gap-[32px] ">
-                <Image src={'/img2/image46.png'} alt='image' width={370} height={430} />
-
-                    <div className="w-[370px] h-[430px] rounded-[4px] bg-[#F5F5F5] ">
-                        <div className='w-[236px] h-[391px] rounded-[4px] relative left-[7px] '>
-                        </div>
-                    </div>
-
-                    <div className="w-[185px] h-[102px] gap-[16px] ">
-                        <h3 className="w-[185px] h-[30px] mt-[-380px] relative left-5 ml-6 ">Tom Cruise
-                        </h3>
-                        <p>Founder & Chairman</p>
-                        {/*  social icons*/}
-                        {/* <div></div> */}
-                    </div>
-
-                </div>
-                {/* image 2 */}
-                <div className="w-[370px] h-[100px] gap-[32px]  ">
-                <Image src={'/img2/image51.png'} alt='image' width={370} height={50} />
-
-                    <div className="w-[370px] h-[430px] rounded-[4px] bg-[#F5F5F5] ">
-                        <div className='w-[236px] h-[391px] rounded-[4px] relative left-[7px] '>
-                        </div>
-                    </div>
-
-                    <div className="w-[185px] h-[102px] gap-[16px] mt-[230px] ">
-                        <h3 className="w-[185px] h-[30px] mt-[-580px] ">Tom Cruise
-                        </h3>
-                        <p>Founder & Chairman</p>
-                        {/*  social icons*/}
-                        {/* <div></div> */}
-                    </div>
-
-                </div>
-
-
-                {/* image 3 */}
-                <div className="w-[370px] h-[564px] gap-[32px] ">
-                <Image src={'/img2/image47.png'} alt='image' width={370} height={350} />
-
-                    <div className="w-[370px] h-[430px] rounded-[4px] bg-[#F5F5F5] ">
-                        <div className='w-[236px] h-[391px] rounded-[4px] relative left-[7px] '>
-                        </div>
-                    </div>
-
-                    <div className="w-[185px] h-[102px] gap-[16px] ">
-                        <h3 className="w-[185px] h-[30px] mt-[-380px] ">Tom Cruise
-                        </h3>
-                        <p>Founder & Chairman</p>
-                        {/*  social icons*/}
-                        {/* <div></div> */}
-                    </div>
-
-                </div>
-                </div>
-
-
-
-                {/* free and fast delivery 3 image   */}
-                <div className="w-[943px] h-[161px] mt-[220px] gap-[88px] relative left-[248px] flex">
-                    {/* image */}
-                    <Image src={'/img2/icon-Customer.png'} alt='image' width={370} height={430} />
-
-                    <div className="w-[249px] h-[161px] gap-[24px] rounded-[4px] border-[1px] ">
-                        <div className="w-[249px] h-[57px]  ">
-                            <p className="w-[242px] h-[28px]  ">FREE AND FAST DELIVERY</p>
-                            <p className='w-[249px] h-[21px]' >Free delivery for all orders over $140</p>
-                            <div className="w-[249px] h-[21px] bg-black pl-[11px] pt-[11px] ">
-
-                            </div>
-
-
-
-                            <div className='w-[169px] h-[66px] gap-[12px]'>
-                                <h3 className='font-bold text-[32px] tracking-[4%]  ' >10.5k </h3>
-                                <p className='h-[24px] font-bold text-[32px] tracking-[4%] ' >Sallers active our site</p>
-
-                            </div>
-                        </div>
-
-
-                    </div>
-                    {/*2nd  */}
-                    <div className="w-[270px] h-[230px] rounded-[4px] border-[1px] ">
-                        <div className="w-[169px] h-[170px]  ">
-                            {/*  image*/}
-                            <div className="w-[80px] h-[80px]  ">
-                                <div className="w-[58px] h-[58px] bg-black pl-[11px] pt-[11px] ">
-
-                                </div>
-                            </div>
-
-
-                            <div className='w-[169px] h-[66px] gap-[12px]'>
-                                <h3 className='font-bold text-[32px] tracking-[4%]  ' >33k</h3>
-                                <p className='h-[24px] font-bold text-[32px] tracking-[4%] ' >Friendly 24/7 customer support</p>
-
-                            </div>
-                        </div>
-
-
-                    </div>
-                    {/* 3rd */}
-                    <div className="w-[270px] h-[230px] rounded-[4px] border-[1px] ">
-                        <div className="w-[169px] h-[170px]  ">
-                            {/*  image*/}
-                            <div className="w-[80px] h-[80px]  ">
-                                <div className="w-[58px] h-[58px] bg-black pl-[11px] pt-[11px] ">
-
-                                </div>
-                            </div>
-
-
-                            <div className='w-[169px] h-[66px] gap-[12px]'>
-                                <h3 className='font-bold text-[32px] tracking-[4%]  ' >MONEY BACK GUARANTEE </h3>
-                                <p className='h-[24px] font-bold text-[32px] tracking-[4%] ' >We reurn money within 30 days</p>
-
-                            </div>
-                        </div>
-
-
-                    </div>
-
-
-
-
-                </div>
-
-
-
+import Link from "next/link";
+import Image from "next/image";
+import aboutImg from "../../../public/images/aboutImages/side_image.png";
+import founder from "../../../public/images/aboutImages/1.png";
+import manager from "../../../public/images/aboutImages/2.png";
+import designer from "../../../public/images/aboutImages/3.png";
+import { BiStore } from "react-icons/bi";
+import { AiOutlineDollar } from "react-icons/ai";
+import { BsSuitcase2 } from "react-icons/bs";
+import { FaSackDollar } from "react-icons/fa6";
+import { FaInstagram } from "react-icons/fa";
+import { FiTwitter } from "react-icons/fi";
+import { RiLinkedinLine } from "react-icons/ri";
+import Support from "@/components/Support";
+
+function page() {
+  return (
+    <>
+      <div className="flex gap-3 mx-5 mt-5 lg:mx-24 lg:mt-16 lg:mb-10">
+        <Link className="text-gray-500" href={"/"}>
+          Home
+        </Link>
+        <p>/</p>
+        <Link href={"/about"}>About</Link>
+      </div>
+      <div className="flex flex-col-reverse lg:flex-row-reverse gap-10 mt-12 mb-32">
+        <Image
+          className="w-full lg:w-[650px]"
+          src={aboutImg}
+          alt="login image"
+        ></Image>
+        <div className="flex flex-col w-full lg:w-1/2 justify-center gap-4 px-5 lg:px-24">
+          <h1 className="text-3xl lg:text-[54px]">Our Story</h1>
+          <p>
+            Launched in 2015 Exclusive is South Asias premier online shopping
+            marketplace with an active presence in Bangladesh Supported by a
+            wide range of tailored marketing, data, and service solutions,
+            Exclusive has 10500 sellers and 300 brands and serves 3 million
+            customers across the region
+          </p>
+          <p>
+            Exclusive has more than 1 Million products to offer, growing at a
+            very fast pace Exclusive offers a diverse assortment in categories
+            ranging from consumer
+          </p>
         </div>
-
-    )
-
+      </div>
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 px-5 lg:px-24 my-10">
+        {[
+          { icon: <BiStore />, title: "10.5k", desc: "Sellers active our site" },
+          {
+            icon: <AiOutlineDollar />,
+            title: "33k",
+            desc: "Monthly Products Sale",
+          },
+          {
+            icon: <BsSuitcase2 />,
+            title: "45.5k",
+            desc: "Customers active in our site",
+          },
+          {
+            icon: <FaSackDollar />,
+            title: "25k",
+            desc: "Annual gross sale in our site",
+          },
+        ].map((item, index) => (
+          <div
+            key={index}
+            className="flex flex-col gap-3 justify-center items-center rounded-sm border border-[#707070] w-full h-[230px] hover:bg-[#db4444] hover:text-white transition-all"
+          >
+            <div className="w-20 h-20 p-2 rounded-full bg-[#707070]">
+              <p className="flex justify-center items-center w-16 h-16 rounded-full bg-black text-white text-[40px]">
+                {item.icon}
+              </p>
+            </div>
+            <h1 className="text-[32px] font-bold">{item.title}</h1>
+            <p className="text-center">{item.desc}</p>
+          </div>
+        ))}
+      </div>
+      <div className="mx-5 lg:mx-24 my-20">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          {[
+            {
+              image: founder,
+              name: "Tom Cruise",
+              position: "Founder & Chairman",
+            },
+            { image: manager, name: "Emma Watson", position: "Managing Director" },
+            {
+              image: designer,
+              name: "Will Smith",
+              position: "Product Designer",
+            },
+          ].map((member, index) => (
+            <div key={index} className="flex flex-col gap-5 items-center">
+              <Image
+                className="w-[250px] h-[300px] lg:w-[350px] lg:h-[400px]"
+                src={member.image}
+                alt={`${member.name} image`}
+              />
+              <div className="flex flex-col leading-8 text-center">
+                <h1 className="text-[24px] lg:text-[32px]">{member.name}</h1>
+                <p>{member.position}</p>
+                <ul className="flex items-center justify-center gap-3 mt-2">
+                  <li className="text-xl">
+                    <Link href={""}>
+                      <FiTwitter />
+                    </Link>
+                  </li>
+                  <li className="text-xl">
+                    <Link href={""}>
+                      <FaInstagram />
+                    </Link>
+                  </li>
+                  <li className="text-xl">
+                    <Link href={""}>
+                      <RiLinkedinLine />
+                    </Link>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          ))}
+        </div>
+        <div className="flex justify-center gap-3 my-10">
+          {Array(5)
+            .fill("")
+            .map((_, index) => (
+              <div
+                key={index}
+                className={`w-[14px] h-[14px] rounded-full ${
+                  index === 2
+                    ? "border-2 border-[#707070] bg-[#db4444]"
+                    : "bg-[#707070]"
+                }`}
+              ></div>
+            ))}
+        </div>
+      </div>
+      <Support />
+    </>
+  );
 }
+
+export default page;
