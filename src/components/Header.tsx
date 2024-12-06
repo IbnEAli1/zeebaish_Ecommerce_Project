@@ -1,4 +1,3 @@
-
 'use client'
 
 import React, { useState } from "react";
@@ -17,7 +16,7 @@ const Header = () => {
            Zeebaish
           </h1>
 
-          {/* Navigation Links for Desktop */}
+    {/* navbar */}
           <nav className="md:ml-auto md:mr-auto flex-wrap items-center text-base justify-center space-x-5 hidden md:flex">
             <Link href={'/'} className="mr-5 hover:text-gray-900">Home</Link>
             <Link href={'/contact'} className="mr-5 hover:text-gray-900">Contact</Link>
