@@ -14,7 +14,7 @@ const Header = () => {
         <div className="container mx-auto flex p-3 justify-between items-center px-4 sm:px-6 md:px-8">
           {/* Logo Section */}
           <h1 className="sm:text-2xl text-xl mt-2  font-bold text-gray-900 mb-4 md:mb-0">
-            Exclusive
+           Zeebaish
           </h1>
 
           {/* Navigation Links for Desktop */}

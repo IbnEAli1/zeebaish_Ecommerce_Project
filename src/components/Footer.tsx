@@ -35,10 +35,10 @@ function Footer() {
         {/* Support Section */}
         <div className="flex flex-col gap-3">
           <h3 className="text-lg lg:text-xl">Support</h3>
-          <p>Malir KDA road HNO/B36</p>
+          <p>Korangi # 6</p>
           <p>Karachi Pakistan</p>
-          <Link href={''}>exclusive@gmail.com</Link>
-          <p>+923102858075</p>
+          <Link href={''}>akazbaba6@gmail.com</Link>
+          <p>+92317-2776177</p>
         </div>
 
         {/* Account Section */}
